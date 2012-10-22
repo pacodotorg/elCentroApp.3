@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDD64EF1635B2F5009327A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDD64EE1635B2F5009327A9 /* UIKit.framework */; };
+		EFDD64F11635B2F5009327A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDD64F01635B2F5009327A9 /* Foundation.framework */; };
+		EFDD64F31635B2F5009327A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDD64F21635B2F5009327A9 /* CoreGraphics.framework */; };
+		EFDD64F91635B2F6009327A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFDD64F71635B2F6009327A9 /* InfoPlist.strings */; };
+		EFDD64FB1635B2F6009327A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD64FA1635B2F6009327A9 /* main.m */; };
+		EFDD64FF1635B2F6009327A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD64FE1635B2F6009327A9 /* AppDelegate.m */; };
+		EFDD65021635B2F6009327A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD65001635B2F6009327A9 /* MainStoryboard.storyboard */; };
+		EFDD65051635B2F6009327A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD65041635B2F6009327A9 /* ViewController.m */; };
+		EFDD650D1635B2F6009327A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDD650C1635B2F6009327A9 /* SenTestingKit.framework */; };
+		EFDD650E1635B2F6009327A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDD64EE1635B2F5009327A9 /* UIKit.framework */; };
+		EFDD650F1635B2F6009327A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDD64F01635B2F5009327A9 /* Foundation.framework */; };
+		EFDD65171635B2F6009327A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFDD65151635B2F6009327A9 /* InfoPlist.strings */; };
+		EFDD651A1635B2F6009327A9 /* elCentroApp_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD65191635B2F6009327A9 /* elCentroApp_2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDD65101635B2F6009327A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDD64E11635B2F5009327A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDD64E91635B2F5009327A9;
+			remoteInfo = "elCentroApp-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDD64EA1635B2F5009327A9 /* elCentroApp-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "elCentroApp-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDD64EE1635B2F5009327A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFDD64F01635B2F5009327A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFDD64F21635B2F5009327A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFDD64F61635B2F6009327A9 /* elCentroApp-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "elCentroApp-2-Info.plist"; sourceTree = "<group>"; };
+		EFDD64F81635B2F6009327A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFDD64FA1635B2F6009327A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDD64FC1635B2F6009327A9 /* elCentroApp-2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "elCentroApp-2-Prefix.pch"; sourceTree = "<group>"; };
+		EFDD64FD1635B2F6009327A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDD64FE1635B2F6009327A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDD65011635B2F6009327A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EFDD65031635B2F6009327A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFDD65041635B2F6009327A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFDD650B1635B2F6009327A9 /* elCentroApp-2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "elCentroApp-2Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDD650C1635B2F6009327A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFDD65141635B2F6009327A9 /* elCentroApp-2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "elCentroApp-2Tests-Info.plist"; sourceTree = "<group>"; };
+		EFDD65161635B2F6009327A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFDD65181635B2F6009327A9 /* elCentroApp_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = elCentroApp_2Tests.h; sourceTree = "<group>"; };
+		EFDD65191635B2F6009327A9 /* elCentroApp_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = elCentroApp_2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDD64E71635B2F5009327A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD64EF1635B2F5009327A9 /* UIKit.framework in Frameworks */,
+				EFDD64F11635B2F5009327A9 /* Foundation.framework in Frameworks */,
+				EFDD64F31635B2F5009327A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD65071635B2F6009327A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD650D1635B2F6009327A9 /* SenTestingKit.framework in Frameworks */,
+				EFDD650E1635B2F6009327A9 /* UIKit.framework in Frameworks */,
+				EFDD650F1635B2F6009327A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDD64DF1635B2F5009327A9 = {
+			isa = PBXGroup;
+			children = (
+				EFDD64F41635B2F5009327A9 /* elCentroApp-2 */,
+				EFDD65121635B2F6009327A9 /* elCentroApp-2Tests */,
+				EFDD64ED1635B2F5009327A9 /* Frameworks */,
+				EFDD64EB1635B2F5009327A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDD64EB1635B2F5009327A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD64EA1635B2F5009327A9 /* elCentroApp-2.app */,
+				EFDD650B1635B2F6009327A9 /* elCentroApp-2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDD64ED1635B2F5009327A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD64EE1635B2F5009327A9 /* UIKit.framework */,
+				EFDD64F01635B2F5009327A9 /* Foundation.framework */,
+				EFDD64F21635B2F5009327A9 /* CoreGraphics.framework */,
+				EFDD650C1635B2F6009327A9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDD64F41635B2F5009327A9 /* elCentroApp-2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD64FD1635B2F6009327A9 /* AppDelegate.h */,
+				EFDD64FE1635B2F6009327A9 /* AppDelegate.m */,
+				EFDD65001635B2F6009327A9 /* MainStoryboard.storyboard */,
+				EFDD65031635B2F6009327A9 /* ViewController.h */,
+				EFDD65041635B2F6009327A9 /* ViewController.m */,
+				EFDD64F51635B2F6009327A9 /* Supporting Files */,
+			);
+			path = "elCentroApp-2";
+			sourceTree = "<group>";
+		};
+		EFDD64F51635B2F6009327A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD64F61635B2F6009327A9 /* elCentroApp-2-Info.plist */,
+				EFDD64F71635B2F6009327A9 /* InfoPlist.strings */,
+				EFDD64FA1635B2F6009327A9 /* main.m */,
+				EFDD64FC1635B2F6009327A9 /* elCentroApp-2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFDD65121635B2F6009327A9 /* elCentroApp-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD65181635B2F6009327A9 /* elCentroApp_2Tests.h */,
+				EFDD65191635B2F6009327A9 /* elCentroApp_2Tests.m */,
+				EFDD65131635B2F6009327A9 /* Supporting Files */,
+			);
+			path = "elCentroApp-2Tests";
+			sourceTree = "<group>";
+		};
+		EFDD65131635B2F6009327A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD65141635B2F6009327A9 /* elCentroApp-2Tests-Info.plist */,
+				EFDD65151635B2F6009327A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDD64E91635B2F5009327A9 /* elCentroApp-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDD651D1635B2F6009327A9 /* Build configuration list for PBXNativeTarget "elCentroApp-2" */;
+			buildPhases = (
+				EFDD64E61635B2F5009327A9 /* Sources */,
+				EFDD64E71635B2F5009327A9 /* Frameworks */,
+				EFDD64E81635B2F5009327A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "elCentroApp-2";
+			productName = "elCentroApp-2";
+			productReference = EFDD64EA1635B2F5009327A9 /* elCentroApp-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDD650A1635B2F6009327A9 /* elCentroApp-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDD65201635B2F6009327A9 /* Build configuration list for PBXNativeTarget "elCentroApp-2Tests" */;
+			buildPhases = (
+				EFDD65061635B2F6009327A9 /* Sources */,
+				EFDD65071635B2F6009327A9 /* Frameworks */,
+				EFDD65081635B2F6009327A9 /* Resources */,
+				EFDD65091635B2F6009327A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDD65111635B2F6009327A9 /* PBXTargetDependency */,
+			);
+			name = "elCentroApp-2Tests";
+			productName = "elCentroApp-2Tests";
+			productReference = EFDD650B1635B2F6009327A9 /* elCentroApp-2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDD64E11635B2F5009327A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Bittinger;
+			};
+			buildConfigurationList = EFDD64E41635B2F5009327A9 /* Build configuration list for PBXProject "elCentroApp-2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFDD64DF1635B2F5009327A9;
+			productRefGroup = EFDD64EB1635B2F5009327A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDD64E91635B2F5009327A9 /* elCentroApp-2 */,
+				EFDD650A1635B2F6009327A9 /* elCentroApp-2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDD64E81635B2F5009327A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD64F91635B2F6009327A9 /* InfoPlist.strings in Resources */,
+				EFDD65021635B2F6009327A9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD65081635B2F6009327A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD65171635B2F6009327A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFDD65091635B2F6009327A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDD64E61635B2F5009327A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD64FB1635B2F6009327A9 /* main.m in Sources */,
+				EFDD64FF1635B2F6009327A9 /* AppDelegate.m in Sources */,
+				EFDD65051635B2F6009327A9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD65061635B2F6009327A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD651A1635B2F6009327A9 /* elCentroApp_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDD65111635B2F6009327A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDD64E91635B2F5009327A9 /* elCentroApp-2 */;
+			targetProxy = EFDD65101635B2F6009327A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFDD64F71635B2F6009327A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDD64F81635B2F6009327A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFDD65001635B2F6009327A9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDD65011635B2F6009327A9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDD65151635B2F6009327A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDD65161635B2F6009327A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDD651B1635B2F6009327A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFDD651C1635B2F6009327A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDD651E1635B2F6009327A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elCentroApp-2/elCentroApp-2-Prefix.pch";
+				INFOPLIST_FILE = "elCentroApp-2/elCentroApp-2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFDD651F1635B2F6009327A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elCentroApp-2/elCentroApp-2-Prefix.pch";
+				INFOPLIST_FILE = "elCentroApp-2/elCentroApp-2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFDD65211635B2F6009327A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/elCentroApp-2.app/elCentroApp-2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elCentroApp-2/elCentroApp-2-Prefix.pch";
+				INFOPLIST_FILE = "elCentroApp-2Tests/elCentroApp-2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EFDD65221635B2F6009327A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/elCentroApp-2.app/elCentroApp-2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elCentroApp-2/elCentroApp-2-Prefix.pch";
+				INFOPLIST_FILE = "elCentroApp-2Tests/elCentroApp-2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDD64E41635B2F5009327A9 /* Build configuration list for PBXProject "elCentroApp-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDD651B1635B2F6009327A9 /* Debug */,
+				EFDD651C1635B2F6009327A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDD651D1635B2F6009327A9 /* Build configuration list for PBXNativeTarget "elCentroApp-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDD651E1635B2F6009327A9 /* Debug */,
+				EFDD651F1635B2F6009327A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFDD65201635B2F6009327A9 /* Build configuration list for PBXNativeTarget "elCentroApp-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDD65211635B2F6009327A9 /* Debug */,
+				EFDD65221635B2F6009327A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDD64E11635B2F5009327A9 /* Project object */;
+}
