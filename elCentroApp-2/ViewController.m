@@ -14,6 +14,17 @@
 
 @implementation ViewController
 
+- (IBAction) AdmissionsSite
+
+{
+    [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"http://www.elcentrocollege.edu/admissions/index.php"]];
+}
+
+- (IBAction) CallAdmissions
+{
+    [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"tel:2148602311"]];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

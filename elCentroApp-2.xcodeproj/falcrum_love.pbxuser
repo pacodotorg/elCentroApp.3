@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	762D0B61165D6D59000E2232 /* elCentroApp-2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "elCentroApp-2";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	762D0B71165D6D5C000E2232 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	762D0B72165D6D5C000E2232 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EFDD64E11635B2F5009327A9 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 762D0B61165D6D59000E2232 /* elCentroApp-2 */;
+		activeTarget = EFDD64E91635B2F5009327A9 /* elCentroApp-2 */;
+		codeSenseManager = 762D0B72165D6D5C000E2232 /* Code sense */;
+		executables = (
+			762D0B61165D6D59000E2232 /* elCentroApp-2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 375224240;
+			PBXWorkspaceStateSaveDate = 375224240;
+		};
+		sourceControlManager = 762D0B71165D6D5C000E2232 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EFDD64E91635B2F5009327A9 /* elCentroApp-2 */ = {
+		activeExec = 0;
+		executables = (
+			762D0B61165D6D59000E2232 /* elCentroApp-2 */,
+		);
+	};
+	EFDD650A1635B2F6009327A9 /* elCentroApp-2Tests */ = {
+		activeExec = 0;
+	};
+}
